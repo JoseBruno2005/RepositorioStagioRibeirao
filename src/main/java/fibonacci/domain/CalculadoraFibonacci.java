@@ -1,9 +1,8 @@
-package domain;
+package fibonacci.domain;
 
 import java.util.ArrayList;
 
 public class CalculadoraFibonacci {
-
     public ArrayList<Integer> calcularFibonacci(int n) {
         ArrayList<Integer> senquenciaFibonacci = new ArrayList<>();
         int a = 0;
@@ -16,10 +15,6 @@ public class CalculadoraFibonacci {
             b = a + b;
             a = temp;
         }
-
         return senquenciaFibonacci;
     }
-
-
-
 }
